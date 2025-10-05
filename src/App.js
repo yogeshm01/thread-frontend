@@ -3,7 +3,7 @@ import CommentList from "./CommentList";
 import ReplyInput from "./ReplyInput";
 
 const API_URL = "https://thread-backend-hnkf.onrender.com/comments";  
-
+// .
 function App() {
   const [comments, setComments] = useState([]);
   const [replyingTo, setReplyingTo] = useState(null);
