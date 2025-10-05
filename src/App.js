@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import CommentList from "./CommentList";
 import ReplyInput from "./ReplyInput";
 
-const API_URL = "http://localhost:4000/comments";
+const API_URL = "https://thread-backend-hnkf.onrender.com/comments";  
 
 function App() {
   const [comments, setComments] = useState([]);
